@@ -135,7 +135,7 @@
   2. indexOf不能判断NaN 返回为-1 includes则可以判断
 
 
-- find  找到第一个符合条件的数组成员
+- find  找到第一个符合条件的数组成员  找不到返回的是undefined
 
   ```
   let arr = [1,2,3,4,5,2,4]
